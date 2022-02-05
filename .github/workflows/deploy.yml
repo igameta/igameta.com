@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - master
-      
+
   workflow_dispatch:
 
 jobs:
@@ -18,7 +18,7 @@ jobs:
         uses: trendyminds/github-actions-rsync@master
         with:
           RSYNC_OPTIONS: -avzr --delete --exclude node_modules --exclude '.git*' --exclude 'Sass/*'
-          RSYNC_TARGET: ${{secrets.TARGET_MAIN_DIR}}
+          RSYNC_TARGET: /var/www/igameta.com
           RSYNC_SOURCE: /
         env:
           SSH_PRIVATE_KEY: ${{secrets.SSH_PRIV_KEY}}
