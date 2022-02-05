@@ -1,15 +1,24 @@
 
 .header-main-taxt{
-    font-family: 'Electrolize', sans-serif;
     font-size: 144px;
     text-align: center;
     color: white;
 }
 
+.nav-logo-text{
+    list-style: none;
+    display: flex;
+}
 
 .Cbg-nav_dark{
     color: #42444B;
 }
+
+/* Font Selector */
+.fm-electrolize{
+    font-family: 'Electrolize', sans-serif;
+}
+
 
 /* Override BootStrap */
 .bg-dark{
