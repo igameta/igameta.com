@@ -1,0 +1,25 @@
+name: Deploy to server
+
+on:
+  push:
+    branches:
+      - "master"
+      workflow_dispatch:
+
+jobs:
+  Deply:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/Checkout@v2
+
+      - name: Deploy to sandbox via rsync
+        uses: trendyminds/github-actions-rsync@master
+        with:
+          RSYNC_OPTIONS: -avzr --delete --exclude node_modules --exclude '.git*' --exclude 'Sass/*'
+          RSYNC_TARGET: ${{secrets.TARGET_MAIN_DIR}}
+          RSYNC_SOURCE: /
+        env:
+          SSH_PRIVATE_KEY: ${{secrets.SSH_PRIV_KEY}}
+          SSH_USERNAME: ${{secrets.SSH_USER}}
+          SSH_HOSTNAME: ${{secrets.SSH_HOST}}

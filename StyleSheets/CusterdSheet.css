@@ -10,9 +10,10 @@
     display: flex;
 }
 
-.Cbg-nav_dark{
-    color: #42444B;
+.nav-Cbg-dark{
+    background-color: #42444B;
 }
+
 
 /* Font Selector */
 .fm-electrolize{
@@ -21,6 +22,3 @@
 
 
 /* Override BootStrap */
-.bg-dark{
-    color: #2C2E36;
-}
