@@ -1,0 +1,17 @@
+
+.header-main-taxt{
+    font-family: 'Electrolize', sans-serif;
+    font-size: 144px;
+    text-align: center;
+    color: white;
+}
+
+
+.Cbg-nav_dark{
+    color: #42444B;
+}
+
+/* Override BootStrap */
+.bg-dark{
+    color: #2C2E36;
+}

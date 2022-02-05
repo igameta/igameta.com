@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Vectornator for iOS (http://vectornator.io/) -->
+
+<svg
+   height="920"
+   style="clip-rule:evenodd;fill-rule:nonzero;stroke-linecap:round;stroke-linejoin:round"
+   version="1.1"
+   viewBox="0 0 580 920"
+   width="580"
+   xml:space="preserve"
+   id="svg13"
+   sodipodi:docname="logo-dark.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:vectornator="http://vectornator.io"><sodipodi:namedview
+   id="namedview15"
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1.0"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   showgrid="false"
+   fit-margin-top="0"
+   fit-margin-left="0"
+   fit-margin-right="0"
+   fit-margin-bottom="0"
+   inkscape:zoom="0.8046875"
+   inkscape:cx="272.15534"
+   inkscape:cy="451.72816"
+   inkscape:window-width="1920"
+   inkscape:window-height="1009"
+   inkscape:window-x="1912"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg13" />
+<metadata
+   id="metadata2">
+<vectornator:setting
+   key="IsTimeLapseWatermarkDisabled"
+   value="false" />
+<vectornator:setting
+   key="UndoHistoryDisabled"
+   value="true" />
+<vectornator:setting
+   key="VNDimensionsVisible"
+   value="true" />
+<vectornator:setting
+   key="VNSnapToGuides"
+   value="false" />
+<vectornator:setting
+   key="WDCMYKEnabledKey"
+   value="false" />
+<vectornator:setting
+   key="WDDisplayWhiteBackground"
+   value="false" />
+<vectornator:setting
+   key="WDDynamicGuides"
+   value="false" />
+<vectornator:setting
+   key="WDGuidesVisible"
+   value="false" />
+<vectornator:setting
+   key="WDIsolateActiveLayer"
+   value="false" />
+<vectornator:setting
+   key="WDOutlineMode"
+   value="false" />
+<vectornator:setting
+   key="WDRulersVisible"
+   value="true" />
+<vectornator:setting
+   key="WDSnapToEdges"
+   value="false" />
+<vectornator:setting
+   key="WDSnapToGrid"
+   value="true" />
+<vectornator:setting
+   key="WDSnapToPoints"
+   value="false" />
+<vectornator:setting
+   key="WDUnits"
+   value="Pixels" />
+</metadata>
+<defs
+   id="defs4" />
+<g
+   id="レイヤー 1 Copy"
+   vectornator:layerName="レイヤー 1 Copy"
+   transform="translate(-240,-60)">
+<path
+   d="M 575.117,349.829 820,60 794.18,755.732 489.961,916.236 374.335,587.461 575.117,349.829"
+   fill="#9c9c9c"
+   opacity="1"
+   id="path6" />
+<path
+   d="M 567.895,359.255 745.754,720.678 541.036,887.079"
+   fill="#47ff43"
+   opacity="1"
+   id="path8" />
+<path
+   d="M 382.079,882.718 240,717.143 465.556,60 691.111,717.143 465.556,980 390.479,892.508"
+   fill="#494949"
+   opacity="1"
+   id="path10" />
+</g>
+</svg>
