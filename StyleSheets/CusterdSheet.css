@@ -1,8 +1,16 @@
+footer{
+    width: 100%;
+	position:absolute;
+	bottom:0;
+}
+
+.footer-link{
+    text-align: right;
+}
 
 .header-main-taxt{
-    font-size: 144px;
+    font-size: 14vw;
     text-align: center;
-    color: white;
 }
 
 .nav-logo-text{
@@ -10,7 +18,7 @@
     display: flex;
 }
 
-.nav-Cbg-dark{
+.Cbg-dark{
     background-color: #42444B;
 }
 
@@ -22,3 +30,6 @@
 
 
 /* Override BootStrap */
+.bg-dark{
+    background-color: #2C2E36;
+}
