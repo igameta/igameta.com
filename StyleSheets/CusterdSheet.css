@@ -1,8 +1,16 @@
+footer{
+    width: 100%;
+	position:absolute;
+	bottom:0;
+}
+
+.footer-link{
+    text-align: right;
+}
 
 .header-main-taxt{
     font-size: 14vw;
     text-align: center;
-    color: w;
 }
 
 .nav-logo-text{
