@@ -1,9 +1,4 @@
-footer{
-    width: 100%;
-	position:absolute;
-	bottom:0;
-}
-
+/* footer and navber */
 .footer-link{
     text-align: right;
 }
@@ -18,8 +13,16 @@ footer{
     display: flex;
 }
 
+/* common */
 .Cbg-dark{
     background-color: #42444B;
+}
+
+/* card style */
+.cd-title{
+    color: rgb(206, 206, 206);
+    text-decoration: underline;
+    text-decoration-color: rgb(206, 206, 206);
 }
 
 
