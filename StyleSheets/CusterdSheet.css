@@ -21,6 +21,10 @@
     background-position: center;
 }
 
+/* Skills */
+
+
+
 /* common */
 .Cbg-dark{
     background-color: #42444B;
@@ -36,7 +40,7 @@
 
 /* card style */
 .cd-title{
-    color: rgb(206, 206, 206);
+    color: rgb(207, 207, 207);
     text-decoration: underline;
     text-decoration-color: rgb(206, 206, 206);
 }
@@ -47,6 +51,10 @@
     font-family: 'Electrolize', sans-serif;
 }
 
+/* FA optimize */
+.fa-links-dis{
+    font-size: 0.85em;
+}
 
 /* Override BootStrap */
 .bg-dark{
