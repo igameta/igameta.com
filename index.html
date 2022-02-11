@@ -7,15 +7,15 @@
 
     <!-- Descriptions -->
     <meta name="description" content="いがめたのポートフォリオ兼プロフィール用のサイトです">
-    <meta name="keywords" content="いがめた, igameta, いが">
-    <meta name="author" content="いがめた">
+    <meta name="keywords" content="いがめた,igameta,igameta0510,いが">
+    <meta name="author" content="いがめた/igameta">
     <title>IGAMETA!!</title>
     <!--  /Descriptions -->
 
     <!-- Favicon -->
     <link rel="icon" href="/favicon/favicon.ico" id="favicon">
-    <link rel="apple-touch-icon" sizes="180x180" href="">
-    <link rel="android-chrome-192x192.png" sizes="192x192" href="">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/AppleTouch.png">
+    <link rel="android-chrome-192x192.png" sizes="192x192" href="/favicon/AndroidChrome.png">
     <!-- /Favicon -->
 
     <!-- OGP -->
@@ -23,7 +23,7 @@
     <meta name="og:title" content="いがめたのポートフォリオ">
     <meta name="og:image" content="https://igameta.com/img/OGP.png">
     <meta name="og:description" content="どこにでもいるグンマー高校生の自己満足サイト">
-      <!-- TwitterOPG -->
+      <!-- TwitterOGP -->
     <meta name="twitter:card" content="summary_large_image">
     <!-- /OGP -->
 
@@ -47,17 +47,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <!-- Electrorize -->
         <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet">
+        <!-- Kosugi Maru + Nuito -->
+        <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Nunito&display=swap" rel="stylesheet">
     <!-- /Google Fonts -->
 
   </head>
 
-  <body class="bg-dark text-white">
+  <body class="bg-dark text-white NormalText">
       
     <!-- Navigation bar -->
     <nav class="navbar navbar-expand-lg navbar-dark Cbg-dark" id="sec:home">
         <div class="container-fluid">
           <a class="navbar-brand ms-3" href="#sec:home">
-            <img src="img/logo/logo-light.svg" type=”image/svg+xml” alt="" width="27" height="44" class="d-inline-block align-text-top" class="d-inline-block align-text-top"> 
+            <img src="img/logo/logo-light.svg" type=”image/svg+xml” alt="logo" width="27" height="44" class="d-inline-block align-text-top" class="d-inline-block align-text-top"> 
           </a>
           <p class="fs-4 text-white fm-electrolize mt-3" >igameta.com</p>         
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -125,7 +127,7 @@
        <div> <!-- タイトル -->
          <h1 class="pt-4 ps-4 cd-title fm-electrolize">Profile</h1>
        </div> 
-       <img src="img/icon.jpg" class="text-end float-end me-3 rounded-circle" width="17%">
+       <img src="img/icon.jpg" class="text-end float-end me-3 rounded-circle" alt="" width="17%">
        <div class="ms-5 mt-3 mb-5">
         <h2 class="mt-1 mb-0">いがめた-igameta-</h2>
         <div class="ms-4 mt-2 fs-4"><!-- 本文 -->
@@ -146,7 +148,7 @@
         <h1 class="pt-4 ps-4 cd-title fm-electrolize">Links</h1>
       </div> 
       <div class="ms-5 mt-3 mb-5">
-       <div class="mt-0 fs-4 row fm-electrolize"><!-- 本文 -->
+       <div class="mt-0 fs-4 row mx-auto fm-electrolize"><!-- 本文 -->
         <div class="col-md">
           <h2>Contacts</h2>
           <ul class="list-unstyled lh-lg">
@@ -166,6 +168,27 @@
           </ul>
         </div>
         <div class="col-md">
+          <h2>Social</h2>
+          <ul class="list-unstyled lh-lg">
+            <li><!--Instagram-->
+              <i class="fab fa-instagram"></i>
+              <a class="text-decoration-none tc-green" href="https://www.instagram.com/igameta/">Instagram</a>
+            </li>
+            <li><!-- TikTok -->
+              <i class="fab fa-tiktok"></i>
+              <a class="text-decoration-none tc-green" href="https://www.tiktok.com/@igameta">TikTok</a>
+            </li>
+            <li><!--VRC-->
+              <i class="bi bi-badge-vr"></i>
+              <a class="text-decoration-none tc-green" href="https://vrchat.com/home/user/usr_2e9f1cfe-27b3-4bdb-8af8-dc9d51cc87d9">VRChat</a>
+            </li>
+            <li><!-- Twitch -->
+              <i class="fab fa-twitch"></i>
+              <a class="text-decoration-none tc-green" href="https://www.twitch.tv/igameta0510">Twitch</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md">
           <h2>Dev</h2>
           <ul class="list-unstyled lh-lg">
             <li><!--GitHub-->
@@ -173,7 +196,7 @@
               <a class="text-decoration-none tc-green" href="https://github.com/igameta">GitHub</a>
             </li>
             <li><!--Zenn-->
-              <img src="img/logo/zenn-white.svg" width="25vw">
+              <img src="img/logo/zenn-white.svg" alt="" width="25vw">
               <a class="text-decoration-none tc-green" href="https://zenn.dev/igameta">Zenn</a>
             </li>
           </ul>
@@ -185,16 +208,8 @@
               <i class="fab fa-steam"></i>
               <a class="text-decoration-none tc-green" href="https://steamcommunity.com/id/igameta/">Steam</a>
             </li>
-            <li><!--Instagram-->
-              <i class="fab fa-instagram"></i>
-              <a class="text-decoration-none tc-green" href="https://www.instagram.com/igameta/">Instagram</a>
-            </li>
-            <li><!--VRC-->
-              <i class="bi bi-badge-vr"></i>
-              <a class="text-decoration-none tc-green" href="https://vrchat.com/home/user/usr_2e9f1cfe-27b3-4bdb-8af8-dc9d51cc87d9">VRChat</a>
-            </li>
             <li><!--pixiv-->
-              <img src="img/logo/pixiv-white.svg" width="25vw">
+              <img src="img/logo/pixiv-white.svg" alt="" width="25vw">
               <a class="text-decoration-none tc-green" href="https://www.pixiv.net/users/41157411">pixiv</a>
             </li>
           </ul>
