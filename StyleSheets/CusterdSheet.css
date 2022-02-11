@@ -26,6 +26,11 @@
 
 
 /* common */
+.NormalText{
+    font-family: 'Kosugi Maru', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+
 .Cbg-dark{
     background-color: #42444B;
 }
