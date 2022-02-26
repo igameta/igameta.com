@@ -21,8 +21,10 @@
     background-position: center;
 }
 
-/* Skills */
-
+/* Track */
+.Track-arrow{
+    border-left: 4vw solid #cfcfcf;
+}
 
 
 /* common */
@@ -45,7 +47,7 @@
 
 /* card style */
 .cd-title{
-    color: rgb(207, 207, 207);
+    color: #cfcfcf;
     text-decoration: underline;
     text-decoration-color: rgb(206, 206, 206);
 }
