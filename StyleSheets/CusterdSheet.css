@@ -18,7 +18,7 @@
     background-image: url("../img/headerBG.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    /* background-position: center; */
 }
 
 /* Track */
